@@ -1,0 +1,36 @@
+{
+  "name": "professionalweb/paymentgate-lib",
+  "description": "Library to communicate with Paymentgate API",
+  "keywords": [
+    "laravel",
+    "paycloud",
+    "api",
+    "professionalweb",
+    "paymentgate"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-4": {
+      "professionalweb\\Paycloud\\": "src/"
+    },
+    "files": [
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "professionalweb\\Paycloud\\Providers\\PaycloudProvider"
+      ]
+    }
+  }
+}
